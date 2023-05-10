@@ -125,16 +125,40 @@ img {
 .sec-width {
   margin-bottom: 8px;
 }
+.div-align {
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+
+  display: block;
+  display: flex;
+  height: 112px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  background-position: center;
+}
 .sec-two-with {
   width: calc((100% - 72px) / 4);
 }
 
+.div-align-antena::before {
+  background-image: url(../images/antenna\ 1.svg);
+  margin-bottom: 8px;
+}
+.div-align-clock {
+  background-image: url(../images/clock\ 1.svg);
+}
+.div-align-diagram {
+  background-image: url(../images/diagram\ 1.svg);
+}
+.div-align-astronaut {
+  background-image: url(../images/astronaut\ 1.svg);
+}
 /* section 3 */
 .sectionthree .item .width {
   background-color: #f4f4fd;
-}
-.h-bottom {
-  margin-bottom: 72px;
 }
 .margin-right:not(:last-child) {
   margin-right: 24px;
@@ -172,6 +196,32 @@ img {
 .sec-four-h {
   margin-bottom: 8px;
 }
+/* section 5 */
+.sec-five {
+  padding: 120px 0 120px;
+  display: flex;
+}
+.sec-five-styles {
+  gap: 24px;
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.sec-five-a {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+}
+.sec-five-a:hover:focus {
+  border-color: #404bbf;
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
 
 /* Nav */
 
@@ -183,10 +233,7 @@ img {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-.navstyles:hover {
-  color: #404bbf;
-}
-.navstyles:focus {
+.navstyles:hover :focus {
   color: #404bbf;
 }
 
@@ -215,10 +262,7 @@ img {
   margin-right: 40px;
 }
 
-.nav-styles-contact:hover {
-  color: #404bbf;
-}
-.nav-styles-contact:focus {
+.nav-styles-contact:hover :focus {
   color: #404bbf;
 }
 
@@ -261,6 +305,9 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.h-bottom {
+  margin-bottom: 72px;
+}
 /* button */
 
 .stylesbutton {
@@ -279,12 +326,10 @@ img {
   border: none;
   border-radius: 4px;
 }
-.stylesbutton:hover {
+.stylesbutton:hover :focus {
   background-color: #404bbf;
 }
-.stylesbutton:focus {
-  background-color: #404bbf;
-}
+
 .buttonportfolio {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
@@ -298,16 +343,12 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
 }
-.buttonportfoliohover:hover {
+.buttonportfoliohover:hover :focus {
   border: 1px solid transparent;
   color: #ffffff;
   background-color: #404bbf;
 }
-.buttonportfoliofocus:focus {
-  border: 1px solid transparent;
-  color: #ffffff;
-  background-color: #404bbf;
-}
+
 /* text */
 .stylestext {
   font-family: "Roboto", sans-serif;
