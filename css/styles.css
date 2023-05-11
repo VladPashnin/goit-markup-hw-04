@@ -217,12 +217,12 @@ margin-right .sec-item {
   width: calc((100% - 120px) / 6);
 }
 
-/* .sec-five-a:hover:focus {
+.sec-five-a:hover:focus {
   border-color: #404bbf;
   width: 104px;
   height: 56px;
   fill: currentColor;
-} */
+}
 
 .sec-five-h {
   font-family: "Roboto", sans-serif;
