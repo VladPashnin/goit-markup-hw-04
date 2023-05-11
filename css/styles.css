@@ -196,7 +196,6 @@ margin-right .sec-item {
   gap: 24px;
   list-style-type: none;
   height: 88px;
-  width: calc((100% - 120px) / 6);
 }
 .sec-five {
   padding: 120px 0 120px 0;
@@ -215,6 +214,7 @@ margin-right .sec-item {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  width: calc((100% - 120px) / 6);
 }
 
 /* .sec-five-a:hover:focus {
