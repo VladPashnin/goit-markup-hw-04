@@ -176,7 +176,7 @@ img {
 .sectionfour .padding {
   background-color: #ffffff;
 }
-margin-right .sec-item {
+.sec-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -227,12 +227,13 @@ margin-right .sec-item {
 
 .sec-five-action:hover {
   color: #404bbf;
+  border-color: #404bbf;
 
   fill: currentColor;
 }
 .sec-five-action:focus {
   color: #404bbf;
-
+  border-color: #404bbf;
   fill: currentColor;
 }
 
