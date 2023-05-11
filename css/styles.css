@@ -136,25 +136,12 @@ img {
   height: 112px;
   background-repeat: no-repeat;
   background-size: contain;
-  content: "";
   background-position: center;
 }
 .sec-two-with {
   width: calc((100% - 72px) / 4);
 }
-
-.div-align-antena::before {
-  background-image: url(../images/antenna\ 1.svg);
-  margin-bottom: 8px;
-}
-.div-align-clock {
-  background-image: url(../images/clock\ 1.svg);
-}
-.div-align-diagram {
-  background-image: url(../images/diagram\ 1.svg);
-}
-.div-align-astronaut {
-  background-image: url(../images/astronaut\ 1.svg);
+.sec-two-svg {
 }
 /* section 3 */
 .sectionthree .item .width {
