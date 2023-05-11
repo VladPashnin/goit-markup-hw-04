@@ -205,10 +205,16 @@ margin-right .sec-item {
 .sec-five-svg {
   fill: currentColor;
 }
-
-.sec-five-a {
+.sec-five-zize {
   width: 100%;
   height: 100%;
+
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-five-a {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
@@ -219,12 +225,12 @@ margin-right .sec-item {
 }
 
 .sec-five-action:hover {
-  border-color: #404bbf;
+  color: #404bbf;
 
   fill: currentColor;
 }
 .sec-five-action:focus {
-  border-color: #404bbf;
+  color: #404bbf;
 
   fill: currentColor;
 }
