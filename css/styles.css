@@ -218,14 +218,15 @@ margin-right .sec-item {
   width: calc((100% - 120px) / 6);
 }
 
-.sec-five-action:hover:focus {
+.sec-five-action:hover {
   border-color: #404bbf;
-  width: 104px;
-  height: 56px;
+
   fill: currentColor;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #8e8f99;
+}
+.sec-five-action:focus {
+  border-color: #404bbf;
+
+  fill: currentColor;
 }
 
 .sec-five-h {
@@ -250,10 +251,12 @@ margin-right .sec-item {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-.navstyles:hover :focus {
+.navstyles:hover {
   color: #404bbf;
 }
-
+.navstyles:focus {
+  color: #404bbf;
+}
 .nav-styles-contact {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -279,7 +282,10 @@ margin-right .sec-item {
   margin-right: 40px;
 }
 
-.nav-styles-contact:hover :focus {
+.nav-styles-contact:hover {
+  color: #404bbf;
+}
+.nav-styles-contact:focus {
   color: #404bbf;
 }
 
@@ -343,7 +349,10 @@ margin-right .sec-item {
   border: none;
   border-radius: 4px;
 }
-.stylesbutton:hover :focus {
+.stylesbutton:hover {
+  background-color: #404bbf;
+}
+.stylesbutton:focus {
   background-color: #404bbf;
 }
 
@@ -360,12 +369,20 @@ margin-right .sec-item {
   background-color: #f4f4fd;
   border-radius: 4px;
 }
-.buttonportfoliohover:hover :focus {
+.buttonportfoliohover:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border: 1px solid transparent;
   color: #ffffff;
   background-color: #404bbf;
 }
-
+.buttonportfoliohover:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid transparent;
+  color: #ffffff;
+  background-color: #404bbf;
+}
 /* text */
 .stylestext {
   font-family: "Roboto", sans-serif;
