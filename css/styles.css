@@ -194,12 +194,17 @@ margin-right .sec-item {
 .sec-five-styles {
   display: flex;
   gap: 24px;
+  list-style-type: none;
+  height: 88px;
+  width: calc((100% - 120px) / 6);
 }
 .sec-five {
-  padding: 120px 0 120px;
+  padding: 120px 0 120px 0;
 }
-width: calc((100% - 120px) / 6);
-height: 88px;
+
+.sec-five-svg {
+  fill: currentColor;
+}
 
 .sec-five-a {
   width: 100%;
