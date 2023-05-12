@@ -464,6 +464,24 @@ img {
   background-color: #2e2f42;
   text-align: left;
 }
+
+/* footer svg */
+.footer-container-svg {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+.footer-p-svg {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-div-svg {
+}
+
 /* portfolio-section */
 .portfolio-section {
   padding: 96px 0 120px;
