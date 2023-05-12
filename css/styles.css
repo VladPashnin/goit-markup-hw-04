@@ -241,7 +241,13 @@ img {
 .sec-five {
   padding: 120px 0 120px 0;
 }
-
+.sec-five-margin {
+  margin-right: 120px;
+}
+.displayflex {
+  display: flex;
+}
+/* svg */
 .sec-five-svg {
   fill: currentColor;
 }
@@ -256,7 +262,6 @@ img {
   color: #8e8f99;
 }
 .sec-five-a {
-  border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
   align-items: center;
