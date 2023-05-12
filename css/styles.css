@@ -176,7 +176,7 @@ img {
 }
 /* svg */
 .sec-four-divsvg {
-  padding: 32px 0;
+  padding: 32px 0 32px;
 }
 .sec-four-ulsvg {
   display: flex;
