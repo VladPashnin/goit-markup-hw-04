@@ -459,12 +459,16 @@ img {
 .footerzize {
   padding: 100px 0;
 }
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
 .p-footer {
   max-width: 264px;
+}
+.footer-align {
+  align-items: baseline;
 }
 .secstylesdown {
   height: 312px;
@@ -473,11 +477,7 @@ img {
 }
 
 /* footer svg */
-.footer-container-svg {
-  display: flex;
-  align-items: baseline;
-  gap: 120px;
-}
+
 .footer-p-svg {
   font-weight: 500;
   font-size: 16px;
@@ -485,8 +485,6 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-}
-.footer-div-svg {
 }
 
 /* portfolio-section */
