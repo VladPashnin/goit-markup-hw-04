@@ -177,9 +177,7 @@ img {
   height: 100%;
 }
 /* svg */
-.sec-four-divsvg {
-  padding: 32px 0 32px;
-}
+
 .sec-four-ulsvg {
   display: flex;
   justify-content: center;
@@ -226,7 +224,7 @@ img {
   display: flex;
 }
 .name {
-  padding: 32px 16px;
+  padding: 32px 0 32px;
   text-align: center;
 }
 
