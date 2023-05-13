@@ -186,6 +186,9 @@ img {
   gap: 24px;
   list-style-type: none;
 }
+.sec-four-svg {
+  fill: #f4f4fd;
+}
 
 .sec-four-lisvg {
   width: 40px;
