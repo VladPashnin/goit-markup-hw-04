@@ -438,6 +438,7 @@ img {
   background-color: #404bbf;
 }
 /* text */
+
 .stylestext {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -457,6 +458,7 @@ img {
   text-align: left;
 }
 /* footer */
+
 .footerzize {
   padding: 100px 0;
 }
@@ -467,6 +469,9 @@ img {
 .p-footer {
   max-width: 264px;
 }
+.footer-align {
+  align-items: baseline;
+}
 .secstylesdown {
   height: 312px;
   background-color: #2e2f42;
@@ -474,6 +479,13 @@ img {
 }
 
 /* footer svg */
+.sec-footer-ulsvg {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  list-style-type: none;
+}
+
 .footer-container-svg {
   display: flex;
   align-items: baseline;
@@ -486,8 +498,6 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-}
-.footer-div-svg {
 }
 
 /* portfolio-section */
