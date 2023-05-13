@@ -505,9 +505,7 @@ img {
   fill: #f4f4fd;
 }
 .footer-container-svg {
-  display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 .footer-p-svg {
   font-weight: 500;
